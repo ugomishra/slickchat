@@ -1,0 +1,18 @@
+{
+  "name": "NodeChat",
+  "version": "0.0.0",
+  "main": "app.js",
+  "scripts": {
+    "stop": "echo not implemented",
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "connect-flash": "^0.1.1",
+    "connect-redis": "^3.0.2",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "morgan": "^1.6.1",
+    "redis": "^2.4.2"
+  }
+}
